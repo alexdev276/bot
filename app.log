@@ -1,0 +1,7 @@
+2025-04-26 00:12:53,696 - INFO - bot has created
+2025-04-26 00:12:53,698 - DEBUG - Using proactor: IocpProactor
+2025-04-26 00:12:53,702 - INFO - Start polling
+2025-04-26 00:12:53,908 - INFO - Run polling for bot @parsercheck_bot id=1964315525 - 'check_bot'
+2025-04-26 00:13:40,411 - INFO - Update id=7011510 is handled. Duration 416 ms by bot id=1964315525
+2025-04-26 00:13:52,118 - INFO - Polling stopped
+2025-04-26 00:13:52,376 - INFO - Polling stopped for bot @parsercheck_bot id=1964315525 - 'check_bot'
