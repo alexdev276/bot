@@ -2,7 +2,7 @@ import asyncio
 import logging
 from aiogram import Bot, Dispatcher
 from config import BOT_TOKEN
-import handlers
+from handlers import general_start
 
 
 
@@ -20,7 +20,7 @@ async def main():
     logging.info('bot has created')
     dp = Dispatcher()
 
-    dp.include_routers(handlers.router)
+    dp.include_routers(general_start.router)
 
     # Запускаем бота и пропускаем все накопленные входящие
     # Да, этот метод можно вызвать даже если у вас поллинг
